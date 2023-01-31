@@ -1,4 +1,4 @@
-<img src='https://user-images.githubusercontent.com/113047979 215865424-37a60151-c08f-469b-befe-dc7da29abcd1.jpg' />
+<img scr= "https://user-images.githubusercontent.com/113047979/215866245-838e7c18-f656-4a98-97ee-341bdcb42ecf.png" />
 
 # Hi, I'm dante franzoi.
 
