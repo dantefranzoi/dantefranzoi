@@ -1,16 +1,14 @@
-### Hi there 👋
+<img src='https://user-images.githubusercontent.com/113047979 215865424-37a60151-c08f-469b-befe-dc7da29abcd1.jpg' />
 
-<!--
-**dantefranzoi/dantefranzoi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# Hi, I'm dante franzoi.
 
-Here are some ideas to get you started:
+```javascript
+function dev(name, age, work) {
+        this.name = name;
+        this.age = age;
+        this.work = work;
+}
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+let dantefranzoi = new dev('dante franzoi', 21, 'desenvolvedor full stack');
+console.log(dantefranzoi);
+```
