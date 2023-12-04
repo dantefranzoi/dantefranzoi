@@ -2,6 +2,8 @@
 
 # Hi, I'm dante franzoi.
 
+<img src="https://github.com/dantefranzoi/dantefranzoi/assets/113047979/d3a61655-f650-4128-933a-147aefedf5a4.png" alt="ilustração de um computador" width="300px" align="right" style="max-width: 100%;">
+
 ```javascript
 function dev(name, age, work) {
         this.name = name;
