@@ -4,13 +4,24 @@
 
 <img src="https://github.com/dantefranzoi/dantefranzoi/assets/113047979/d3a61655-f650-4128-933a-147aefedf5a4.png" alt="ilustração de um computador" width="230px" align="right" style="max-width: 100%;">
 
-```javascript
-function dev(name, age, work) {
+public class Dev {
+    private String name;
+    private int age;
+    private String work;
+
+    public Dev(String name, int age, String work) {
         this.name = name;
         this.age = age;
         this.work = work;
-}
+    }
 
-let dantefranzoi = new dev('dante franzoi', 21, 'desenvolvedor full stack');
-console.log(dantefranzoi);
-```
+    @Override
+    public String toString() {
+        return String.format("Dev{name='%s', age=%d, work='%s'}", name, age, work);
+    }
+
+    public static void main(String[] args) {
+        Dev danteFranzoi = new Dev("Dante Franzoi", 21, "Desenvolvedor Full Stack");
+        System.out.println(danteFranzoi);
+    }
+}
