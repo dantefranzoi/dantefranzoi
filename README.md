@@ -24,4 +24,4 @@
     public static void main(String[] args) {
         System.out.println(new Dev("Dante Franzoi", 21, "Desenvolvedor Full Stack"));
     }
-}
+    }
