@@ -4,24 +4,12 @@
 
 <img src="https://github.com/dantefranzoi/dantefranzoi/assets/113047979/d3a61655-f650-4128-933a-147aefedf5a4.png" alt="ilustração de um computador" width="230px" align="right" style="max-width: 100%;">
 
+describe('sobre mim', () => {
+  it('sobre mim', () => {
+  
+    cy.visit('https://www.linkedin.com/in/dantefsantana/')
 
-    public class Dev {
-        private String name;
-        private int age;
-        private String work;
-
-    public Dev(String name, int age, String work) {
-        this.name = name;
-        this.age = age;
-        this.work = work;
-    }
-
-    @Override
-    public String toString() {
-        return String.format("Dev{name='%s', age=%d, work='%s'}", name, age, work);
-    }
-
-    public static void main(String[] args) {
-        System.out.println(new Dev("Dante Franzoi", 21, "Desenvolvedor Full Stack"));
-    }
-    }
+    cy.contains('Fala pessoa, eu sou o Dante. Sou um aspirante no mundo de QA, além de ser um xereta de desenvolmento web e pesquisador educacional.')
+      .should('be.visible')
+  })
+})
